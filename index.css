@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    position: relative;
+}
+
+#Logo {
+    margin: 5px;
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
+}
+
+header {
+    background-color: #ababab;
+}
+
+#Sign_Up, #Login{
+    background-color: #dbdbdb;
+    color: white;
+    height: 15px;
+    width: 50px;
+    padding: 5px 2px 2px 2px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#Sign_Up {
+    position: absolute;
+    top: 7px;
+    left: 92%;
+}
+
+#Login {
+    position: absolute;
+    top: 7px;
+    left: 96%;
+}
+
+#Text {
+    width: 1000px;
+    background-color: #ababab;
+    color: #ffffff;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    top: 45px;
+    left: calc(1000px - 50%);
+}
+
+
+#HTML {
+    width: 200px;
+    position: relative;
+    top: 50px;
+    left: calc(50% - 250px);
+}
+
+#CSS {
+    width: 220px;
+    position: relative;
+    top: 55px;
+    left: calc(50% - 250px);
+}
